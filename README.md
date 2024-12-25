@@ -1,4 +1,4 @@
-https://github.com/mjahdkaran/todoapp/edit/main/README.md
+https://github.com/mjahdkaran/todoapp
 
 # برنامه مدیریت وظایف (Todo List)
 
