@@ -31,7 +31,7 @@ export default function TodoItem({ todoObject }) {
         setTodoCompletedOn(todoObject.completedOn);
 
         setSchedulerDate(todoObject.todoScheduler)
-    }, [todoObject.completedOn]);
+    }, [todoObject.completedOn,todoObject.todoScheduler]);
 
     const toggleCompleteStatus = () => {
         const updatedCompletedOn = !isCompleted ? getCurrentDate() : '';
